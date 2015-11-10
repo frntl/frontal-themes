@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+	<div id="header">Logo</div>
+	<div id="footer">
+		<div class="left">{{ global_author }}</div>
+		<div class="middle">{{ global_title }}</div>
+		<div class="right">{{ current_page }} / {{number_of_pages}}</div>
+	</div>
+{% endblock %}

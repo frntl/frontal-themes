@@ -1,0 +1,9 @@
+{% extends '../sublayout.html' %}
+
+{% block content %}
+	<h1>{{ global_title }}</h1>
+	<h2>{{ global_subtitle }}</h2>
+	<h3>{{ global_author }}</h3>
+	<h4>{{ global_date }}</h4>
+	{% parent %}
+{% endblock %}

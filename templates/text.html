@@ -1,0 +1,9 @@
+{% extends '../sublayout.html' %}
+
+{% block content %}
+	<h1>{{ title }}</h1>
+	<h2>{{ subtitle }}</h2>
+	<p>{{ content }}</p>
+	<p class="footnote">{{ footnote }}</p>
+	{% parent %}
+{% endblock %}
